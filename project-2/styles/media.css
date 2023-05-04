@@ -1,0 +1,122 @@
+.navbar-toggle{
+    margin-top:-45px;
+    background-color: darkturquoise;
+}
+span.icon-bar{
+    background-color: black;
+}
+@media (max-width: 768px) {
+    .wtext{
+        width:100%;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footinput{
+        padding: 0;
+        float: left;
+        width: 70%;
+    }
+}
+@media (min-width: 992px) {
+    .menu2{
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px){
+    .hid{
+        display: none;
+    }
+
+    .navbar-toggle{
+        display: block !important;
+    }
+    .text{
+        padding-top: 20%;
+
+    }
+    .text1{
+        font-size: 30px;
+    }
+    .aboutimg{
+        display: none;
+    }
+    .abouttext{
+        text-align: justify;
+    }
+    hr{
+        width: 15%;
+    }
+    .testimonials>h3{
+        font-size: 20px;
+    }
+    .testimonials>h2{
+        font-size: 16px;
+    }
+
+
+    .wtext{
+        width: 220px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .workstitle>h2{
+        float: left;
+        font-size: 14px;
+    }
+    .workstitle>h3{
+        float: right;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+    .testimonials>h3{
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .testimonials>h2{
+        display: none;
+    }
+    .vline{
+        border: none;
+    }
+    .footimg{
+        display: none;
+    }
+    .foottext1{
+        display: none;
+    }
+    .foottopic{
+        display: none;
+    }
+    .studiotext{
+        text-align: justify;
+    }
+    .footvisit{
+        padding-top: 2%;
+    }
+    .footinput{
+        padding: 0;
+        float: left;
+        width: 70%;
+    }
+
+    .footer2>div.col-xs-12{
+        text-align: center;
+        padding: 10px 15px;
+    }
+    .nav>li>a{
+        font-size: 12px;
+        padding: 3px;
+    }
+
+
+    .newnav{
+        float: none;!important;
+
+    }
+    div.hh>h3>b{
+        display: none;
+    }
+}

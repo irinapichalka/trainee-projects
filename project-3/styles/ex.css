@@ -1,0 +1,302 @@
+.bod {
+  padding-left: 0;
+}
+.header {
+  width: 100%;
+  padding-left: 5%;
+}
+.inputT {
+  padding-top: 1%;
+  top: 50%;
+}
+input[type="text"] {
+  width: 100%;
+  background: url(../images/search.png) #ffffff no-repeat right center; /*url ������, ���� ���� �����*/
+  border: 3px solid darkturquoise; /*������, ���� ������� �����*/
+  color: green; /*���� ������*/
+  font-weight: bold;
+  font-family: "Lucida Grande", Verdana, sans-serif; /*����� ������*/
+  height: 35px; /*������ �����*/
+  padding-right: 30px; /*���������� ������ ������ �� ������ ���� �����*/
+  font-size: 1em; /*������ ������*/
+  vertical-align: middle;
+  text-decoration: none; /*������ ���������� ������*/
+  -moz-border-radius-bottomleft: 10px; /*����� ������ ����*/
+  -moz-border-radius-bottomright: 10px; /*������ ������ ����*/
+  -moz-border-radius-topleft: 10px; /*����� ������� ����*/
+  -moz-border-radius-topright: 10px; /*������ ������� ����*/
+  margin-bottom: 1%;
+}
+.cart:hover {
+  cursor: pointer;
+}
+.cart div:first-child {
+  padding: 0 0 0 0;
+  text-align: left;
+}
+.cart div:first-child > img {
+  margin: 0 0 0 auto;
+}
+.cart div:last-child {
+  padding: 12px 0 0 0;
+}
+.menulist {
+  background-color: darkturquoise;
+  border-radius: 0;
+  border: none;
+  text-align: justify;
+  text-align-last: justify;
+}
+.navbar {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+}
+.topmenu {
+  background-color: darkturquoise;
+  /* �������� ��� ��������*/
+  line-height: 0;
+  font-size: 18px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+ul.topmenu li {
+  display: inline-block;
+  color: white;
+  line-height: normal;
+  /* ��� ���� � Opera ����� ������ ��� ���������� */
+  vertical-align: top;
+  text-shadow: 3px 3px green;
+}
+ul.topmenu li.helper {
+  width: 100%;
+  height: 0px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.navbar-inverse li:hover {
+  background-color: #4ccfc1;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.navbar-inverse li > a {
+  color: white;
+  font-size: 18px;
+  font-family: fantasy;
+  /*margin: 0 auto;*/
+}
+.navbar-inverse li > a:hover {
+  font-size: 20px;
+  color: white;
+  background-color: inherit;
+}
+
+.banner {
+  background-color: #4ccfc1;
+  margin: 0 0 0 0;
+}
+.banimg {
+  padding: 1% 1% 0 4%;
+  margin: 0 0 0 auto;
+  text-align: center;
+}
+.banimg:hover {
+  cursor: pointer;
+}
+.bantext {
+  background-color: #4ccfc1;
+  margin-top: 8%;
+}
+.bantext1 {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  padding-left: 0;
+}
+.bantext1:hover {
+  text-shadow: 3px 3px green;
+}
+.bantext2 {
+  color: white;
+}
+.bantext3 {
+  border-color: white;
+  border-style: solid;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+.bantext3:hover {
+  background-color: green;
+}
+.products {
+  margin-left: 0;
+  margin-right: 0;
+}
+.imgb {
+  margin-top: 2%;
+  width: 5%;
+  text-align: center;
+  height: 140px;
+}
+.productimg {
+  border-bottom: 10px solid darkgray;
+  border-top: 1px solid darkgray;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+.productimg:hover {
+  border-bottom: 10px solid green;
+  border-top: 1px solid green;
+  border-left: 1px solid green;
+  border-right: 1px solid green;
+  text-decoration: underline;
+  text-decoration-color: green;
+  -moz-text-decoration-color: green;
+}
+div.productimg > img {
+  width: 177px;
+  height: 151px;
+  margin: 0 auto;
+}
+
+.prodtext {
+  text-align: center;
+  color: darkgrey;
+  font-size: large;
+  margin: 0 auto;
+}
+.prodbut {
+  border-color: green;
+  border-radius: 8px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+}
+.prodbut:hover {
+  cursor: pointer;
+}
+.featprod {
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+  background-color: #4ccfc1;
+  padding-left: 8%;
+  margin: 0 0 0 0;
+}
+.featprod:hover {
+  text-shadow: 3px 3px green;
+  cursor: pointer;
+}
+.primgf {
+  text-align: center;
+  border: 1px solid darkgray;
+  border-bottom: 5px solid green;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.primgf:hover {
+  border-color: green;
+}
+div.primgf > img {
+  height: 130px;
+  margin: 0 auto;
+}
+.prodtextf {
+  color: darkgrey;
+  font-size: large;
+}
+.prodbutf {
+  border-color: green;
+  border-radius: 8px;
+  color: white;
+  background-color: green;
+  width: 25%;
+}
+.footer {
+  padding-top: 1%;
+  background-color: #4ccfc1;
+  margin: 0 0 0 0;
+}
+div.footer > ul {
+  list-style-type: none;
+}
+.footUl > li:first-child {
+  list-style-type: none;
+  font-family: fantasy;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+div.footer > ul > li {
+  color: white;
+}
+.footbot {
+  padding: 1% 1% 1% 1%;
+  margin: 0 0 0 0;
+  background-color: darkturquoise;
+  color: white;
+  text-align: center;
+}
+
+/*   media  */
+.menu2 {
+  margin: 0 0 0 0;
+  background-color: darkturquoise;
+  /* margin-right: 5px;*/
+  border: none;
+  margin-top: 93px;
+}
+.navmenu-nav > li > a {
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  font-family: fantasy;
+}
+.navmenu-nav > li {
+  border-bottom: 1px solid white;
+}
+.navmenu-nav li:hover {
+  background-color: green;
+}
+.navmenu-nav > li > a:hover {
+  font-size: 20px;
+  color: white;
+}
+.navbarM {
+  margin: 0 0 0 0;
+  background-color: darkturquoise;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: green;
+  border-color: white;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+}
+/*gradient    */
+.carousel-control.left {
+  background-image: none !important;
+}
+.carousel-control.right {
+  background-image: none;
+}

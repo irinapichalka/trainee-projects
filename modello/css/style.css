@@ -1,0 +1,465 @@
+
+body{
+    background-color: snow;
+}
+.toppage{
+
+}
+.nav >li a{
+    cursor: pointer;
+    color: black;
+}
+.nav>li a:hover{
+    font-weight: bolder;
+    background-color: transparent;
+}
+.logoimg{
+    width: 228px;
+    height: 228px;
+    background-image: url("logo.png");
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 999;
+    cursor: pointer;
+}
+.logotext>p:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+.logotext>p:last-child{
+    color: white;
+}
+.topmenu{
+    background-color: snow;
+
+}
+.menuleft{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2%;
+    padding-left: 0;
+}
+.menuright{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2%;
+    padding-right: 0;
+    margin-left: 400px;
+
+}
+.wish:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-color: lightseagreen;
+}
+
+.wish {
+    display: block;
+    cursor: pointer;
+}
+.wish ul {
+    position: absolute;
+    top: 25px;
+    width: 230px;
+    background: #fff;
+    display: none;
+    margin: 0;
+    padding: 7px 0;
+    list-style: none;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.wish ul:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 2px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+.wish ul:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 4px;
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1) transparent;
+}
+.wish ul li {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 0 #fff;
+}
+.wish ul li a {
+    display: block;
+    width: 100%;
+    padding: 6px 7px;
+    line-height: 1.4em;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+
+.topmenu>div.col-md-12{
+    margin-top:1%
+}
+input[type="search"]{
+    background-image: url("search.png");
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 100%; /*Позиционируем*/
+
+    margin-top: 1%;
+    margin-right:5% ;
+    opacity: 0.7;
+    float: right;
+    padding: 5px;
+    padding-right: 20px;
+    font-size: 12px;
+    width: 70%;
+
+}
+.content{
+    background-color: snow;
+
+}
+.categories{
+    border-bottom: 4px solid lightseagreen;
+    margin-top: 228px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*border-top: 1px solid lightseagreen;*/
+}
+.menulist{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 0;
+}
+
+ul.topmenu li {
+    display: inline-block;
+    color: black; !important;
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+    font-weight: bolder;
+}
+ul.topmenu li.helper{
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+}
+.navbar-inverse li>a:hover{
+    font-size: 16px;
+    background-color: inherit;
+}
+.blocks{
+   /* position: relative;
+    top: 10px;
+    overflow: hidden;*/
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.blocks>.col-md-4,.col-md-8,.col-md-12,.col-md-8>.col-md-12,.col-md-8>.col-md-12>.col-md-8,.col-md-8>.col-md-12>.col-md-4{
+    padding: 0;
+}
+.firstblock{
+    text-align: center;
+
+ }
+.february{
+   /* margin: 0 auto;*/
+    height: 410px;
+    background-color: lightgray;
+    display: table-cell;
+    vertical-align: middle;
+    width: inherit;
+    border-radius: 10px;
+}
+.february:hover{
+    border: 2px solid lightseagreen;
+
+}
+.sale{
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+.sale>img{
+    position: absolute;
+    top:35%;
+    left: 35%;
+}
+.arrivals{
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px;
+    margin-top: 0;
+}
+.arrivalstext {
+    position: relative;
+    top:35%;
+    color: white;
+    text-align: center;
+}
+.arrivalstext>h2{
+    margin: 0;
+}
+.block1{
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px;
+    margin-top: 0;
+}
+.block2{
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px;
+    margin-top: 0;
+}
+.products{
+    text-align: center;
+    width: 100%;
+}
+.sortproducts{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/**.sortproducts>div.col-md-6{
+    margin: 0 auto;
+}*/
+.sorttext1{
+
+}
+.sorttext2{
+
+}
+.sorttext1, .sorttext2{
+    font-size: 22px;
+
+}
+.sorttext1:hover, .sorttext2:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.productsline1:first-child{
+
+}
+.prodimg{
+    margin: 0 auto;
+    width: 279px;
+    height: 300px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+.prodtext{
+    text-align: center;
+    background-color: white;
+    width: 279px;
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 1;
+}
+/*.hidbutton{
+    display: none;
+}*/
+.prodtext >.hidbutton,
+.prodtext:hover >.hidbutton:not(:hover) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    cursor: default;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    visibility: hidden;
+}
+.prodtext >.hidbutton2,
+.prodtext:hover >.hidbutton2:not(:hover) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    cursor: default;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    visibility: hidden;
+}
+/*.prodtext >.hidbutton:hover ,
+.prodtext >.hidbutton:focus {
+    visibility: visible;
+}*/
+
+button{
+    color: white;
+    font-weight: bold;
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    border-radius:5px;
+}
+button:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.productall:hover{
+    cursor: pointer;
+}
+.prodimg:hover{
+    border: 2px solid lightseagreen;
+
+}
+.loadmore{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.loadmore:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mycarousel{
+    text-align: center;
+    background-color: snow;
+    padding: 3% 0;
+}
+.carousel-inner{
+    width: 50%;
+    margin: 0 auto;
+}
+.left.carousel-control{
+    left:205px;!important;
+}
+.right.carousel-control{
+    right:205px;!important;
+}
+.footer1{
+    overflow: hidden;
+}
+.topname{
+    padding: 1%;
+    border-bottom: 2px solid darkgray;
+    font-weight: bold;
+}
+.paymentmethods{
+    margin: 5% 20%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: 0 auto;
+}
+/*gradient    */
+.carousel-control.left {
+    background-image: none;!important;
+}
+.carousel-control.right{
+    background-image: none;!important;
+}
+.glyphicon-chevron-left,.glyphicon-chevron-right{
+    color: lightseagreen;!important;
+}
+
+
+/*second menu*/
+.menu2{
+    background-color: snow;
+}
+.menu2>ul{
+    margin-top: 20px;
+}
+.newLi>li{
+    background-color: lightseagreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.newLi>li:first-child{
+    border-bottom:1px solid white ;
+}
+.newLi>li:hover{
+    background-color: white;
+}
+.newLi>li>a{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.newLi>li>a:hover{
+    color: lightseagreen;
+}
+
+
+
+
+/*add*/
+.korpus3 {
+    position: relative;
+    z-index: 1;
+}
+.korpus3, .korpus3 li {
+    margin: 0;
+    padding: 0;
+}
+.korpus3 li {
+    display: inline-block;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.korpus3 li div,
+.korpus3:hover li:not(:hover) div {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -1px;
+    border: 1px solid #aaa;
+    background: #fff;
+    cursor: default;
+    visibility: hidden;
+}
+.korpus3 li:hover div,
+.korpus3 li:focus div {
+    visibility: visible;
+}
+.korpus3 li:hover {
+    background: #f1f1f1;
+}
+.korpus3 li:focus {
+    background: #aaa;
+}

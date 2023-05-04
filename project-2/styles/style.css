@@ -1,0 +1,424 @@
+.header {
+  /*background-image: url("../images/tajem_master.png");*/
+  height: 666px;
+}
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(../images/tajem_master.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* padding-top: 50px;*/
+  padding-bottom: 50px;
+}
+
+.headmenu {
+  background-image: url("../images/tajem_master.png");
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+}
+ul {
+  background-color: transparent;
+}
+.navbar-inverse li {
+  display: inline-block;
+}
+.navbar-inverse li:hover {
+  background-color: transparent;
+}
+.navbar-inverse li > a {
+  color: white;
+  font-weight: bold;
+}
+.navbar-inverse li > a:hover {
+  color: darkturquoise;
+  background-color: inherit;
+  cursor: pointer;
+}
+.text {
+  text-align: center;
+  color: white;
+  padding-top: 15%;
+}
+.text1 {
+  font-size: 40px;
+}
+hr {
+  border: none; /* ������� ������� ��� �������� Firefox */
+  color: darkturquoise; /* ���� ����� ��� ��������� ��������� */
+  background-color: darkturquoise; /* ���� ����� ��� �������� Firefox � Opera */
+  height: 2px; /* ������� ����� */
+  width: 5%;
+}
+.text2 {
+  margin: 1% 10% 1% 10%;
+}
+button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: transparent;
+  border: 1px solid darkturquoise;
+  color: darkturquoise;
+}
+.content {
+}
+.about {
+  background-color: white;
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.video {
+  background-image: url("../images/video.png");
+  height: 550px;
+  text-align: center;
+  width: 1600px;
+  display: table-cell;
+  vertical-align: middle;
+}
+/*div.video > img{
+    margin-top:15%;
+}*/
+div.video > h3 {
+  color: white;
+  cursor: pointer;
+}
+.expertise {
+  background-color: white;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  overflow: hidden;
+}
+.expgrid > img {
+  width: 50px;
+  height: 50px;
+}
+.expertise > hr {
+  background-color: lightgray;
+  color: lightgray;
+}
+div.expertise > .col-md-4 {
+  border-bottom: 1px solid lightgray;
+}
+.expgrid {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.expgrid > h5 {
+  color: gray;
+}
+.vline {
+  border-right: 1px solid lightgray;
+}
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(../images/team.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.team {
+  /* background-image: url("../images/team.png");*/
+  height: 712px;
+  text-align: center;
+  width: 1600px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.fillteam {
+  margin-right: 10%;
+  margin-left: 10%;
+  color: white;
+}
+.fillteam > h2 {
+}
+.fillteam > hr {
+  background-color: lightgray;
+  color: lightgray;
+}
+.workers {
+  overflow: hidden;
+}
+.workgrid {
+  margin: 1%;
+  text-align: center;
+}
+.wfoto {
+  text-align: center;
+}
+.wfoto > img {
+  margin: 0 auto;
+}
+.wtext {
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  width: 220px;
+}
+.afwtext {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: white;
+}
+.works {
+  background-color: white;
+  overflow: hidden;
+}
+.workstitle {
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+.workstitle > h2 {
+  float: left;
+}
+.workstitle > h3 {
+  float: right;
+}
+.workstitle > h3:hover {
+  color: darkturquoise;
+  cursor: pointer;
+}
+.worksitems {
+  overflow: hidden;
+}
+.worksitems > div.col-md-2 {
+  padding: 0;
+}
+.worksbottom {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.content-space-three {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(../images/testimonials.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonials {
+  /* background-image: url("../images/testimonials.png");*/
+  height: 500px;
+  color: white;
+  text-align: center;
+  width: 1600px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.testimonials > img {
+  padding-top: 25px;
+}
+.contact {
+  background-color: white;
+  overflow: hidden;
+  color: black;
+}
+.contacttext {
+  margin: 1%;
+}
+.clientlogo > img {
+  margin: 0 auto;
+  padding: 10px;
+}
+.clientlogo {
+  border: 2px solid transparent;
+}
+.clientlogo:hover {
+  cursor: pointer;
+  background-color: darkturquoise;
+  text-align: center;
+  border: 2px solid darkslateblue;
+  border-radius: 10px;
+
+  /* -webkit-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;*/
+}
+input[type="text"] {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 10px;
+  height: 50px;
+  color: lightgray;
+  border-color: lightgray;
+}
+textarea {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 10px;
+  height: 150px;
+  color: lightgray;
+  border-color: lightgray;
+}
+.col-md-12 {
+  text-align: center;
+}
+.col-md-12 > img {
+  padding: 3% 0 3% 0;
+}
+.content-space-four {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(../images/footer.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer {
+  /*background-image: url("../images/footer.png");*/
+  height: 400px;
+  color: white;
+  width: 1600px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.footer1 {
+  background: transparent;
+  overflow: hidden;
+}
+.footinput {
+  padding: 0;
+  float: left;
+  width: 70%;
+}
+.footimg2 {
+  margin: 3px;
+  padding: 0;
+  float: left;
+  width: 27%;
+  height: 50px;
+  background-color: white;
+  opacity: 0.3;
+  text-align: center;
+}
+
+.footimg2:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.foottopic {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 6%;
+  padding-top: 2%;
+}
+.foottext1 {
+  padding-top: 3%;
+  text-align: justify;
+}
+.studiotext {
+  overflow: hidden;
+  padding-top: 2%;
+}
+.studiotext > .col-md-2 {
+  text-align: right;
+}
+.footimg2 > img {
+  padding-top: 10%;
+}
+.footinput > input {
+  background: transparent;
+}
+.social > .col-md-2 {
+  padding-left: 2px;
+  padding-top: 20px;
+  /* -webkit-transition:all 2s;*/
+}
+.social > .col-md-2:hover {
+  cursor: pointer;
+  /** -moz-transform: rotate(360deg); /* ��� Firefox */
+  /*  -ms-transform: rotate(360deg); /* ��� IE */
+  /*  -webkit-transform: rotate(360deg); /* ��� Safari, Chrome, iOS */
+  /*  -o-transform: rotate(360deg); /* ��� Opera */
+  /* transform: rotate(360deg);**/
+}
+
+.footer2 {
+  margin-top: 8%;
+  bottom: 0;
+}
+.footer2 > div.col-md-6 > p {
+  text-align: center;
+  padding: 10px 15px;
+}
+.newnav {
+  float: left;
+}
+
+/*second menu*/
+.menu2 {
+  background-color: white;
+  background-color: darkslateblue;
+}
+.newLi > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid darkturquoise;
+}
+.newLi > li:hover {
+  background-color: darkturquoise;
+}
+.newLi > li > a {
+  color: darkturquoise;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.newLi > li > a:hover {
+  color: darkslateblue;
+}
+
+/*slider*/
+#carousel {
+  height: 100px;
+
+  overflow: hidden;
+  background: transparent;
+  text-align: center;
+}
+#carousel img {
+  visibility: hidden; /* hide images until carousel can handle them */
+  cursor: pointer; /* otherwise it's not as obvious items can be clicked */
+
+  top: 25px !important;
+}

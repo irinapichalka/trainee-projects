@@ -1,0 +1,62 @@
+@media (min-width: 992px){
+    .bantext {
+        margin-left: -5%;
+    }
+
+
+}
+@media (max-width: 992px){
+    .hid{
+        display: none;
+    }
+    .navbar-toggle{
+        display: block !important;
+    }
+    div.cart{
+        display: none;
+    }
+    .footUl{
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+}
+@media (max-width: 768px){
+
+    p.bantext2{
+        display: none;
+    }
+    .bantext{
+        margin-top: 0;
+        text-align: center;
+    }
+    .bantext1{
+        font-size: medium;
+        margin-top: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    .bantext3{
+        border: none;
+        text-decoration: underline;
+        cursor: pointer;
+        padding: 0;
+        text-align: right;
+    }
+    .bantext3:hover{
+        background-color: inherit;
+    }
+
+}
+/*big screen*/
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+    .menu2{
+        display: none;
+    }
+    /**.navbar {
+        display: none !important;
+    }*/
+
+}

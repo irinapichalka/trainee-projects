@@ -1,0 +1,31 @@
+.topmenu {
+  /* ��������� ��� IE6-7*/
+  text-justify: newspaper;
+}
+/*ul.topmenu li{
+    /* �������� inline-block ��� IE6-7
+    display : inline;
+    zoom : 1;
+}*/
+.navbar-inverse li > a {
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.bantext3 {
+  padding: 0;
+  width: 20%;
+  min-width: 100px;
+}
+.bantext3:hover {
+  background-color: inherit;
+}
+.navmenu-nav > li > a {
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.primgf:hover {
+  cursor: pointer;
+  border: 3px green solid;
+}
